@@ -1,0 +1,24 @@
+body {
+  background-image: url("https://media4.giphy.com/media/fYzE2b6lwAfMoUfsY1/200.webp?cid=790b7611zazzoagucpf7jekm5um2vtjdkp5e2d89wvfs5bgn&ep=v1_gifs_search&rid=200.webp&ct=g;");
+  min-height: 100vh;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #ad111180;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
